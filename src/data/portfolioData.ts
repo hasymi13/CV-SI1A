@@ -1,9 +1,13 @@
 import { Project, Service, Experience, Testimonial } from '../types';
+import heroPortrait from '../assets/images/hero_somaida_portrait_1792383042044.jpg';
+import aboutWorkspace from '../assets/images/about_somaida_workspace_1792383042817.jpg';
+import fintechApp from '../assets/images/project_fintech_app_1792382533942.jpg';
+import ecommerceMinimal from '../assets/images/project_ecommerce_minimal_1792382533781.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_somaida_portrait_1792383042044.jpg';
-export const ABOUT_IMAGE = '/src/assets/images/about_somaida_workspace_1792383042817.jpg';
-export const FINTECH_IMAGE = '/src/assets/images/project_fintech_app_1792382533942.jpg';
-export const ECOMMERCE_IMAGE = '/src/assets/images/project_ecommerce_minimal_1792382533781.jpg';
+export const HERO_IMAGE = heroPortrait;
+export const ABOUT_IMAGE = aboutWorkspace;
+export const FINTECH_IMAGE = fintechApp;
+export const ECOMMERCE_IMAGE = ecommerceMinimal;
 
 export const PROJECTS: Project[] = [
   {
